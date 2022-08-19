@@ -7,5 +7,6 @@ export default function Home() {
     } 
     return (
         <div className={active === "1" ? "active" : undefined} id={"1"} onClick={handleClick}>Home</div>
+        
     )
 }
