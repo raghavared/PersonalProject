@@ -103,13 +103,14 @@ const Navbar = () => {
                 Contact
             </NavLink>
         </NavMenu> */}
+        {/* <div className='header-full-main-cont'> */}
         <div>
             <ul>
-                <li><a className={active === "1" ? "active" : undefined} id={"1"} onClick={handleClick} href="#home">Home</a></li>
-                <li><a className={active === "2" ? "active" : undefined} id={"2"} onClick={handleClick} href="#roadmap">RoadMap</a></li>
-                <li><a className={active === "3" ? "active" : undefined} id={"3"} onClick={handleClick} href="#blueprint">Blue Print</a></li>
-                <li><a className={active === "4" ? "active" : undefined} id={"4"} onClick={handleClick} href="#about">About</a></li>
-                <li><a className={active === "5" ? "active" : undefined} id={"5"} onClick={handleClick} href="#contact">Contact</a></li>
+                <li><a className={active === "1" ? "active" : undefined} id={"1"} onClick={handleClick} href="#home"><b>Home</b></a></li>
+                <li><a className={active === "2" ? "active" : undefined} id={"2"} onClick={handleClick} href="#roadmap"><b>RoadMap</b></a></li>
+                <li><a className={active === "3" ? "active" : undefined} id={"3"} onClick={handleClick} href="#blueprint"><b>Blue Print</b></a></li>
+                <li><a className={active === "4" ? "active" : undefined} id={"4"} onClick={handleClick} href="#about"><b>About</b></a></li>
+                <li><a className={active === "5" ? "active" : undefined} id={"5"} onClick={handleClick} href="#contact"><b>Contact</b></a></li>
             </ul>   
         </div>
     </nav>
