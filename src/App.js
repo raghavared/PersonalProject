@@ -3,12 +3,16 @@ import './App.css';
 import Navbar from  './components/Navbar/Navbar.js'
 // import Home from './components/Home';
 import Home from './components/Home/index'
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
+       <>
        <Navbar />
+       {/* <Header /> */}
        <Home />
+       </>
        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
